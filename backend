@@ -1,0 +1,28 @@
+backend/
+├── api/
+│   ├── accounting_routes.py
+│   ├── data_upload_routes.py
+│   └── analysis_routes.py
+├── database/
+│   ├── models/
+│   │   ├── financial_models.py
+│   │   └── kpi_models.py
+│   ├── schemas/
+│   │   └── data_schemas.py
+│   └── database.py
+├── services/
+│   ├── data_import/
+│   │   ├── csv_handler.py
+│   │   ├── excel_handler.py
+│   │   └── odoo_integration.py
+│   ├── analysis/
+│   │   ├── financial_analysis.py
+│   │   └── trend_analysis.py
+│   └── security/
+│       └── auth.py
+├── utils/
+│   ├── data_validation.py
+│   └── date_utils.py
+├── config.py
+├── main.py
+└── requirements.txt
